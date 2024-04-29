@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+   
+    <link rel="stylesheet" href="style.css">
+    <title>paint</title>
+</head>
+<body>
+    <div class="all filter ">
+        <div class="css-filters filter ">
+
+            <div class="css-name">
+                <h3>Css Filtter Efects</h3>
+
+            </div>
+
+            <div class="css-list option ">
+                <div class="blur list ">
+                    <button class="btn active" id="blur">
+                        <span>Blur</span>
+                    </button>
+                </div>
+                <div class="brightness list">
+                    <button class="btn" id="brightness">
+                        <span>Brightness</span>
+                    </button>
+                </div>
+                <div class="contrast list">
+                    <button class="btn" id="contrast">
+                        <span>Contrast</span>
+                    </button>
+                </div>
+                <div class="grayscale list">
+                    <button class="btn" id="grayscale">
+                        <span>Grayscale</span>
+                    </button>
+                </div>
+                <div class="hue list" >
+                    <button class="btn" id="hue">
+                        <span>Hue-Rotate</span>
+                    </button>
+                </div>
+                <div class="invert list" >
+                    <button class="btn" id="invert">
+                        <span>Invert</span>
+                    </button>
+                </div>
+                <div class="opacity list">
+                    <button class="btn" id="opacity">
+                        <span>Opacity</span>
+                    </button>
+                </div>
+                <div class="saturate list">
+                    <button class="btn" id="saturate">
+                        <span>Saturate</span>
+                    </button>
+                </div>
+                <div class="sepia list">
+                    <button class="btn" id="sepia">
+                        <span>Sepia</span>
+                    </button>
+                </div>
+                <div class="drop list">
+                    <button class="btn" id="drop">
+                        <span>Drop Shadow</span>
+                    </button>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="main ">
+            <div class=" preview-img1" >
+            <div class=" picture" >
+                <img class="picture " src="image.jpg" alt="">
+            </div>
+                <div class="slider">
+                    <div class="filter-info">
+                        <p class="name">Blur</p>
+                        <p class="value">100%</p>
+                    </div>
+                    <input type="range" value="100" name="vol" min="0" max="100">
+                </div> 
+                    <div class="row">
+                        <input type="file" class="file-input" accept="image/*" hidden>
+                        <button class="choose-img">Choose Image</button>
+                        <button class="save-img">Save Image</button>
+                    </div>
+            </div>
+          
+        </div>
+    </div>
+
+    
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
